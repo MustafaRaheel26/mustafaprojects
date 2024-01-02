@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        .Step_2{
+            background-color: skyblue;
+        }
+        .Step_3{
+            background-color: rgb(177, 175, 175);
+        }
+        .Step_1{
+            background-color: lightgreen;
+        }
+        fieldset{
+  
+            width: 500px;
+            height: 250px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        form{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <center>
+        <table style="text-align: center; border-collapse: collapse; height: 50px; width: 500px;">
+           <tr>
+             <th class="Step_1">Step 1:Account</th>
+             <th class="Step_2">Step 2:Personal Details</th>
+             <th class="Step_3"> Step 3:Your Review</th>
+           </tr>
+        </table>
+       </center>
+       <br><br>
+       <form action="">
+        <fieldset >
+            <legend><b>Personal Details</b></legend> <br>
+            <label for="First Name"><b>First Name:</b>
+                <input type="text" id="first_name" placeholder="Enter First Name"> 
+            </label>
+            <br> <br>
+            <label for="Last Name"><b>Last Name:</b>
+                <input type="text" id="last_name" placeholder="Enter Last Name"> 
+            </label>
+            <br> <br>
+            <label for="CNIC"><b>CNIC:</b>
+                <input type="number" id="CNIC" placeholder="Enter CNIC" maxlength="13"> 
+            </label>
+            <br> <br>
+            <label for="Social Link"><b>Social Link:</b>
+                <input type="text" id="social_link" placeholder="Enter Facebook/Linkedin Profile Link"> 
+            </label>
+            <br><br><br>
+            <a href="./account.html"><img src="./Images/back.png" alt="" height="40px"></a>
+            <a href="./your_review.html"><img src="./Images/next.png" alt="" height="40px"></a>
+            
+            
+    
+        </fieldset>
+        </form>
+    
+</body>
+</html>

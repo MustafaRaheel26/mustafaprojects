@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+    <style>
+    .Step_2{
+        background-color: lightgreen;
+    }
+    .Step_3{
+        background-color: skyblue;
+    }
+    .Step_1{
+        background-color: lightgreen;
+    }
+    fieldset{
+
+        width: 500px;
+        height: 370px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    form{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <center>
+        <table style="text-align: center; border-collapse: collapse; height: 50px; width: 500px;">
+           <tr>
+             <th class="Step_1">Step 1:Account</th>
+             <th class="Step_2">Step 2:Personal Details</th>
+             <th class="Step_3"> Step 3:Your Review</th>
+           </tr>
+        </table>
+       </center>
+       <br><br>
+       <form action="">
+        <fieldset >
+            <legend><b>Your Review:</b></legend> <br>
+            <label for="Question"><b>How did you hear about us?</b>
+                <select name="Select an Option" id="select_an_option" placeholder="Select an Option">
+                    <option value="Social Media">Social Media</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Others">Others</option>
+                </select> 
+            </label>
+            <br> <br>
+            <label for="Question 2"><b>Would you visit again?</b>
+                <input type="radio" id="Yes" name="Question_2"> Yes
+                <input type="radio" id="No" name="Question_2"> No
+                <input type="radio" id="Maybe" name="Question_2"> Maybe
+            </label>
+            <br> <br>
+            <label for="Comments"><b>Comments:
+                <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Enter your comments here..."></textarea>
+            </label>
+            <br> <br>
+            <label for="Documents"><b>Documents:</b>
+                <input type="file" id="Documents"> 
+            </label>
+            <br><br><br>
+            <label for="sign me up for email updates"><b>Sign me up for email updates</b>
+                <input type="checkbox" id="checkbox" > 
+            </label>
+            <br><br><br>
+            <a href="./personal_details.html"><img src="./Images/back.png" alt="" height="40px"></a>
+            <a href="./index.html"><img src="./Images/submit.png" alt="" height="40px"></a>
+            
+            
+    
+        </fieldset>
+        </form>
+    
+    
+</body>
+</html>
